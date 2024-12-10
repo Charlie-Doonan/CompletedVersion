@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sustainable Development - Team</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="styling/styles.css">
+    <script src="scripts/team.js" defer></script>
+</head>
+<body>
+    <!-- Header section of page, containing navigation and logo -->
+    <header>
+        <a href="index.html" class="logo"><img src="#" id="Nav_Img" alt="logo"></a>
+        <button class="hamburger_menu" id="hamburger_menu" aria-label="Toggle hamburger nav"><i class="fas fa-bars"></i></button>
+        <nav id="navMenu">
+            <!-- Navigation with links to different pages, contains ID's for JSON and text display/output-->
+            <a href="index.html" id="navHome"></a>
+            <a href="goals.html" id="navGoals"></a>
+            <a href="team.html" id="navTeam" class="activeNav"></a>
+            <a href="signup.html" id="navSignup"></a>
+        </nav>
+    </header>
+    <main>
+        <section class="teamInfo">
+             <!-- Section displaying team information, contains ID's for JSON and text display/output  -->
+
+            <h1 id="teamHead"></h1>
+            <div class="teamBorder"></div>
+            <article class="imageShape">
+                <!-- Buttons for team photos-linked to a specific team member's information, includes link to images of team members-->
+                <button class="studentPhoto" data-target="student1"><img src="#" id="teamphoto1" alt="team photo"></button>
+                <button class="studentPhoto" data-target="student2"><img src="#" id="teamphoto2" alt="team photo"></button>
+                <button class="studentPhoto" data-target="student3"><img src="#" id="teamphoto3" alt="team photo"></button>
+            </article>
+
+            <!-- Sections for individual team member information, contains ID's for JSON and text display/output-->
+            <section>
+                <article class="namesSection" id="student1">
+                    <div class="names" id="studentName1"></div>
+                    <div class="teamBorder"></div>
+                    <p id="student1info"></p>
+                </article>
+            </section>
+
+            <section>
+                <article class="namesSection" id="student2">
+                    <div class="names" id="studentName2"></div>
+                    <div class="teamBorder"></div>
+                    <p id="student2info"></p>
+                </article>
+            </section>
+
+            <section>
+                <article class="namesSection" id="student3">
+
+                    <div class="names" id="studentName3"></div>
+                    <div class="teamBorder"></div>
+                    <p id="student3info"></p>
+                </article>
+            </section>
+        </section>
+    </main>
+    <footer>
+        <!-- ID for JSON footer text display/output -->
+        <p id="footer"></p>
+    </footer>
+</body>
+
+</html>

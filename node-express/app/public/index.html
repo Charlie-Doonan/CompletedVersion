@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sustainable Development - Home</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="styling/styles.css">
+    <script src="scripts/index.js" defer></script>
+</head>
+<body>
+    <!-- Header section of page, containing navigation and logo -->
+    <header>
+        <a href="index.html" class="logo"><img src="#" id="Nav_Img" alt="logo"></a>
+        <button class="hamburger_menu" id="hamburger_menu" aria-label="Toggle hamburger nav"><i class="fas fa-bars"></i></button>
+        <nav id="navMenu">
+            <!-- Navigation with links to different pages, contains ID's for JSON and text display/output -->
+            <a href="index.html" id="navHome" class="activeNav"></a>
+            <a href="goals.html" id="navGoals"></a>
+            <a href="team.html" id="navTeam"></a>
+            <a href="signup.html" id="navSignup"></a>
+        </nav>
+    </header>
+<main>
+    <!-- Welcome section, button that links to signup page, contains ID's for JSON and text display/output -->
+        <section class="welcomeSection">
+            <h1 id="welcomeHead"></h1>
+            <p id="welcomeText"></p>
+            <a href="signup.html" id="signupButton" class="button"></a>
+        </section>
+        <section class="imageSection">
+            <img src="#" id="Welcome_Image" alt="Sustainable Development Goals Logo">
+        </section>
+    </main>
+    <footer>
+        <!-- ID for JSON footer text display/output -->
+        <p id="footer"></p>
+    </footer>
+</body>
+</html>

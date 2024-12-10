@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sustainable Development - Goals</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <link rel="stylesheet" href="styling/styles.css">
+  <script src="scripts/goals.js" defer></script>
+</head>
+<body>
+  <!-- Header section of page, containing navigation and logo -->
+  <header>
+    <a href="index.html" class="logo"><img src="#" id="Nav_Img" alt="logo"></a>
+    <button class="hamburger_menu" id="hamburger_menu" aria-label="Toggle hamburger nav"><i class="fas fa-bars"></i></button>
+    <nav id="navMenu">
+      <!-- Navigation with links to different pages, contains ID's for JSON and text display/output -->
+      <a href="index.html" id="navHome"></a>
+      <a href="goals.html" id="navGoals" class="activeNav"></a>
+      <a href="team.html" id="navTeam"></a>
+      <a href="signup.html" id="navSignup"></a>
+    </nav>
+  </header>
+  <main>
+    <h1 id="goalsHead"></h1>
+
+    <!-- Goal container to display goals, each goal contained in article, contains ID's for JSON and text display/output -->
+    <section class="goalContainer">
+      <article class="goal">
+        <h1 id="goal1Head"></h1>
+        <p id="goal1Para"></p>
+        <button class="openInfo" id="openInfo"></button>
+      </article>
+      <article class="goal">
+        <h1 id="goal2Head"></h1>
+        <p id="goal2Para"></p>
+        <button class="openInfo" id="openInfo1"></button>
+      </article>
+      <article class="goal">
+        <h1 id="goal3Head"></h1>
+        <p id="goal3Para"></p>
+        <button class="openInfo" id="openInfo2"></button>
+      </article>
+    </section>
+
+    <!-- Sections for displaying information for each goal ('read more') -->
+    <section class="Info" id="Info">
+      <article class="InfoInside">
+        <h2 id="goalsInfo1Head"></h2>
+        <p id="goalsInfo1Para"></p>
+        <button class="closeInfo" id="closeInfo"></button>
+      </article>
+    </section>
+
+    <section class="Info" id="Info1">
+      <article class="InfoInside">
+        <h2 id="goalsInfo2Head"></h2>
+        <p id="goalsInfo2Para"></p>
+        <button class="closeInfo" id="closeInfo1"></button>
+      </article>
+    </section>
+
+    <section class="Info" id="Info2">
+      <article class="InfoInside">
+        <h2 id="goalsInfo3Head"></h2>
+        <p id="goalsInfo3Para"></p>
+        <button class="closeInfo" id="closeInfo2"></button>
+      </article>
+    </section>
+
+  </main>
+  <footer>
+    <!-- ID for JSON footer text display/output -->
+    <p id="footer"></p>
+  </footer>
+</body>
+</html>

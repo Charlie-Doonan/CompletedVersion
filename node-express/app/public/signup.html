@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sustainable Development - Signup</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="styling/styles.css">
+    <script src="scripts/signup.js" defer></script>
+</head>
+
+<body>
+    <!-- Header section of page, containing navigation and logo -->
+    <header>
+        <a href="index.html" class="logo"><img src="#" id="Nav_Img" alt="logo"></a>
+        <button class="hamburger_menu" id="hamburger_menu" aria-label="Toggle hamburger nav"><i
+                class="fas fa-bars"></i></button>
+        <nav id="navMenu">
+            <!-- Navigation with links to different pages, contains ID's for JSON and text display/output -->
+            <a href="index.html" id="navHome"></a>
+            <a href="goals.html" id="navGoals"></a>
+            <a href="team.html" id="navTeam"></a>
+            <a href="signup.html" id="navSignup" class="activeNav"></a>
+        </nav>
+    </header>
+    <main>
+        <section class="SignupSection">
+            <h1 id="signupHead"></h1>
+                <!-- Form for user signup using get method -->
+                <form action="#" method="get" enctype="text/plain" class="SignupForm" id="myForm">
+                    <!-- Input fields for user to complete, contains ID's for JSON and text display/output -->
+                    <label for="fName"><span id="Label_fName"></span></label>
+                    <input type="text" name="fName" id="fName" placeholder="Enter your first name" required>
+
+                    <label for="lName"><span id="Label_lName"></span></label>
+                    <input type="text" id="lName" name="lName" placeholder="Enter your last name" required>
+
+                    <label for="email"><span id="Label_email"></span></label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+                    <label for="comments"><span id="Label_comments"></span></label>
+                    <textarea id="comments" name="comments" placeholder="Enter any comments" required></textarea>
+                    <!-- submit button for confirmation -->
+                    <button type="submit" class="SignupButton" id="signupButton"></button>
+                </form>
+        </section>
+    </main>
+    <footer>
+        <!-- ID for JSON footer text display/output -->
+        <p id="footer"></p>
+    </footer>
+</body>
+
+</html>

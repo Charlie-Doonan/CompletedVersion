@@ -1,0 +1,61 @@
+Our website provides information about 3 UN's Sustainability goals, we also provide different webpages where you can viwe specific information about signup's, the team and the goals themseveles.
+
+---------------------------------------------------------
+On our website we have multiple key features including:
+
+-An intuitive navigation menu
+-Interactive elements, such as popups
+-Responsive design for, desktop and mobile devices
+-A signup form, providing a confirmation
+
+You can easily navigate our website by:
+
+-Looking at the top of the page for the navigation
+-Selecting the different web pages
+-Clicking on the different elements and features of our website
+-Providing sensitive information to signup
+
+Sources Used:
+
+https://www.geeksforgeeks.org/how-to-disable-right-click-on-web-page-using-javascript/ (contextmenu for rightclick dk why but ok...)
+
+Important links to progress (github, trello):
+
+https://trello.com/b/g7X5vFrY/group-c8-2024-25-cmp-4011a-assignment
+https://github.com/Charlie-Doonan/NewRepository
+
+Team conributions(Individual):
+
+[Charlie]:
+    - Creation of Goals page-HTML
+    - Creation of Signup/Newsletter Page-HTML
+    - Creation of Hamburger-HTML, JS and CSS
+    - JavaScript for the Goals page
+    - Creation of Node/express- JS and JSON
+
+[Bilal]:
+    - Creation of Teams page-HTML
+    - JavaScript for the Teams page
+
+[Aidan]:
+    - Creation of Index/Home page-HTML
+    - JavaScript for the Index/Home page
+
+---------------------------------------------------------
+
+Team contributions(Grouped):
+
+[Team-Collaboration]:
+
+    - Creation, functionality and styling of Navigation- HTML, JS and CSS
+    - CSS styling of Signup page
+    - CSS styling of Index/Home page
+    - JSON for displaying text on ALL website pages-HTML, JSON and JS
+
+[Charlie-Bilal]:
+    - CSS styling of Team page
+    - Media Query for Hamburger
+
+[Charlie-Aidan]:
+    - CSS styling of Goals page
+    - JavaScript for the Signup page
